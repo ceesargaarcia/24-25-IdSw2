@@ -1,4 +1,4 @@
-## Examen parcial de programacion 1
+## Parcial - Análisis de Código
 ### 1. **Nombre de Variable `agujero`**
    - **Línea**: [ExamenCesar.java#L6](https://github.com/ceesargaarcia/PRG1-22-23-ExamenParcial/blob/97f71d3457851210c902d0eefe9f6923726163a8/entregas/garciaC%C3%A9sar/ExamenCesar.java#L6)
    - **Problema**: Es ambiguo. No se entiende si representa un agujero físico, una opción del usuario, o un elemento del juego.
@@ -58,4 +58,3 @@
      - `if (posicion >= 60)` → [L72](https://github.com/ceesargaarcia/PRG1-22-23-ExamenParcial/blob/97f71d3457851210c902d0eefe9f6923726163a8/entregas/garciaC%C3%A9sar/ExamenCesar.java#L72)
    - **Problema**: El número `60` aparece como valor mágico. No está claro qué representa (ej: meta del juego).
    - **Sugerencia**: Definir una constante como `POSICION_META = 60`.
-   
